@@ -13,4 +13,10 @@ services:
     restart: always
     ports:
       - 8080:8080
+  shop:
+    container_name: shop
+    build: .
+    restart: always
+    ports:
+      - 28019:28019
   
